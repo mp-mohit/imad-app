@@ -20,7 +20,7 @@ button.onclick = function()
       //Not done yet then don't do anything
     };
     //Make the request
-    request.open('GET','http://pneel813.imad.hasura-app.io/counter', true);
+    request.open('GET','http://u150303105135.imad.hasura-app.io/counter', true);
     request.send(null);
 };
 //Submit name
@@ -53,7 +53,7 @@ Submit.onclick = function()
     //Make the request
     var nameInput = document.getElementById('name'); 
     var n1 = nameInput.value;
-    request.open('GET','http://pneel813.imad.hasura-app.io/submit-name?name=' + n1, true);
+    request.open('GET','http://u150303105135.imad.hasura-app.io/submit-name?name=' + n1, true);
     request.send(null);
 
   //Make a request to the server and send a name
